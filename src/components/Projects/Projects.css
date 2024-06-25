@@ -1,0 +1,134 @@
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.project__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .65em;
+    
+}
+
+.projects__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+
+.project-column__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: .65em;
+    height: 525px;
+}
+
+.project-info{
+    padding: 0 2em;
+}
+
+.project-left-deco{
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.tech-badge__container{
+    display: flex;
+    gap: .875em;
+}
+
+.projects-links__container{
+    display: flex;
+    gap: .875em;
+}
+
+.project-img{
+    background: var(--lightTxt-color);
+    width: 100%;
+    height: 49%;
+}
+
+.project-img-l{
+    background: var(--secondary-color);
+    width: 100%;
+    height: 100%;
+}
+
+.section-title__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+/* laptop display width 1365px */
+
+@media (max-width: 1360px){
+    .project__container{
+        grid-template-columns: 1fr;
+        margin: 0 5em;
+        gap: 1.25em;
+    }
+
+   .project-column__wrapper{
+    height: fit-content;
+    gap: 1.25em;
+   }
+
+   .project-info{
+    padding: 0em;
+    }
+
+   .project-img-column__wrapper{
+    flex-direction: row;
+    justify-content: center;
+    }
+
+   .project-img-column__wrapper img{
+    width: 410px;
+   }
+
+   .grid-2{
+    flex-direction: column;
+    position: relative;
+   }
+
+   .grid-2-img{
+    position: absolute;
+    right: 0;
+   }
+
+}
+
+@media (max-width: 1250px){
+    .project-info{
+        padding: 0em;
+        
+    }
+
+    .project-img-column__wrapper img{
+        width: fit-content;
+       }
+}
+
+@media (max-width: 1150px){
+    .project__container{
+        margin: 0 3em;
+    }
+}
+
+@media (max-width: 950px){
+    .project__container{
+        margin: 0em;
+    }
+}
+
+@media (max-width: 750px){
+    .project-img-column__wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .project-img-column__wrapper img{
+        width: 100%;
+       }
+}

@@ -1,0 +1,31 @@
+.custom-button-link{
+    text-decoration: none;
+    width: fit-content;
+}
+
+.custom-button{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: .35em;
+    padding: .45em .65em;
+    width: 90px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+    background: var(--secondary-color);
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+    font-weight: 500;
+    border-radius: 32px;
+    &:hover{
+        background: var(--background-color);
+        color: var(--text-color);
+        border: 1px solid var(--secondary-color);
+    }
+}
+
+.custom-button svg{
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,11 @@
+.badge{
+    display: flex;
+    align-items: center;
+    gap: .35em;
+    background: #202020;
+    border-radius: 32px;
+    border: 2px solid var(--secondary-color); 
+    padding: .30em .65em;
+    color: var(--text-color);
+    user-select: none;
+}
