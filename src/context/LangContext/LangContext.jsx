@@ -31,7 +31,7 @@ const LangContext = ({ children }) => {
       },
       about: {
         title: "About me",
-        desc: "I'm Alonso. I started programming because I always found it fascinating to know how applications work on the inside. Since then, I've been dedicated to self-learning technologies and best practices that help me create engaging user experiences.",
+        desc: "I'm Alonso. I started programming because I always found it fascinating to know how applications work on the inside. Since then, I've been dedicated to self-learning technologies and good practices that help me create engaging user experiences.",
       },
     },
   };
