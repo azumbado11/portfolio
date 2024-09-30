@@ -28,6 +28,18 @@ const LangContext = ({ children }) => {
           desc_1:
             "A landing page developed using Astro JS, that it's a rebuild of an old website for a IT solutions company, resulting in a site with fast page loads, improved SEO, responsive design and optimized performance, all of this using modern web development principles.",
         },
+        project_3: {
+          title: "Aniden",
+          desc_1:
+            "Anime and manga database project built using React 19 release candidate to showcase the latest features and improvements of React, focusing on optimizing user experience and performance while providing a robust media filtering interface.",
+        },
+        project_4: {
+          title: "Dish Delight",
+          desc_1:
+            "Recipes social network fullstack project designed to allow users to discover, share, and manage their favorite recipes. Built with React for the frontend and NestJS for the backend, this app provides a seamless user experience and robust functionality for recipe enthusiasts.",
+          desc_2:
+            "The primary goal of this project is to create an interactive platform to share recipes, while implementing secure authentication with JSON Web Tokens and efficient data management through two separate CRUD operations with two well-structured APIs, one for users and another for recipes. ",
+        },
       },
       about: {
         title: "About me",
@@ -60,6 +72,18 @@ const LangContext = ({ children }) => {
           title: "Sitio web E-Tech911",
           desc_1:
             "Página web desarrollada con Astro JS, la cual es una reconstrucción de un sitio web antiguo para una compañia de soluciones informáticas, cuenta con SEO optimizado, diseño adaptable y rendimiento mejorado, todo esto utilizando principios modernos de desarrollo web.",
+        },
+        project_3: {
+          title: "Aniden",
+          desc_1:
+            "Proyecto de base de datos de anime y manga construido con la versión candidata de React 19 para mostrar las últimas características y mejoras de React, centrándose en optimizar la experiencia del usuario y el rendimiento, mientras se proporciona una interfaz de filtrado de contenido robusta.",
+        },
+        project_4: {
+          title: "Dish Delight",
+          desc_1:
+            "Proyecto de red social de recetas fullstack que permite a los usuarios descubrir, compartir y gestionar sus recetas favoritas. Desarrollada con React y NestJS, esta aplicación ofrece una experiencia de usuario fluida y funcionalidades robustas para los amantes de la cocina.",
+          desc_2:
+            "El objetivo principal de este proyecto es crear una plataforma interactiva para compartir recetas, implementando autenticación segura con JSON Web Tokens y una gestión eficiente de datos a través de dos operaciones CRUD separadas con dos APIs bien estructuradas.",
         },
       },
       about: {
